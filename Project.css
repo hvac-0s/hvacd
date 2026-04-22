@@ -1,0 +1,48 @@
+.projects {
+  padding: 40px;
+  background: #f4f7fb;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #0a2a66;
+}
+
+.project-card {
+  width: 350px;
+  margin: auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+
+/* Image gallery */
+.image-gallery {
+  display: flex;
+}
+
+.image-gallery img {
+  width: 50%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  margin: 10px;
+}
+
+.project-card p {
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+/* Video */
+.project-card video {
+  width: 90%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
